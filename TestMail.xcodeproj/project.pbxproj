@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A286131F296DF74D0046C956 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286131E296DF74D0046C956 /* StatusLabel.swift */; };
+		A2861323296DFBFB0046C956 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2861322296DFBFA0046C956 /* UIStackView + Extensions.swift */; };
+		A2861325296DFD0E0046C956 /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2861324296DFD0E0046C956 /* MailTextField.swift */; };
+		A2861327296DFFBE0046C956 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2861326296DFFBE0046C956 /* VerificationButton.swift */; };
+		A2861329296E014E0046C956 /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2861328296E014E0046C956 /* MailCollectionView.swift */; };
+		A286132C296E02D40046C956 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286132B296E02D40046C956 /* MailCollectionViewCell.swift */; };
+		A286132F297067110046C956 /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286132E297067110046C956 /* VerificationModel.swift */; };
+		A286133129706D5C0046C956 /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286133029706D5C0046C956 /* String + Extensions.swift */; };
+		A2861334297078160046C956 /* MailApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2861333297078160046C956 /* MailApiKey.swift */; };
+		A286133629707A200046C956 /* NetWorkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286133529707A200046C956 /* NetWorkRequest.swift */; };
+		A286133829707D820046C956 /* MailResponceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286133729707D820046C956 /* MailResponceModel.swift */; };
+		A286133A2970806C0046C956 /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28613392970806C0046C956 /* NetworkDataFetch.swift */; };
+		A286133C297083980046C956 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286133B297083980046C956 /* Alerts.swift */; };
 		A29F04A6296DEEA300075E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F04A5296DEEA300075E18 /* AppDelegate.swift */; };
 		A29F04A8296DEEA300075E18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F04A7296DEEA300075E18 /* SceneDelegate.swift */; };
-		A29F04AA296DEEA300075E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F04A9296DEEA300075E18 /* ViewController.swift */; };
-		A29F04AD296DEEA300075E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29F04AB296DEEA300075E18 /* Main.storyboard */; };
+		A29F04AA296DEEA300075E18 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F04A9296DEEA300075E18 /* VerificationViewController.swift */; };
 		A29F04AF296DEEA300075E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29F04AE296DEEA300075E18 /* Assets.xcassets */; };
 		A29F04B2296DEEA300075E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29F04B0296DEEA300075E18 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A286131E296DF74D0046C956 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		A2861322296DFBFA0046C956 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		A2861324296DFD0E0046C956 /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
+		A2861326296DFFBE0046C956 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
+		A2861328296E014E0046C956 /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
+		A286132B296E02D40046C956 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
+		A286132E297067110046C956 /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
+		A286133029706D5C0046C956 /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		A2861333297078160046C956 /* MailApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailApiKey.swift; sourceTree = "<group>"; };
+		A286133529707A200046C956 /* NetWorkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkRequest.swift; sourceTree = "<group>"; };
+		A286133729707D820046C956 /* MailResponceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailResponceModel.swift; sourceTree = "<group>"; };
+		A28613392970806C0046C956 /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		A286133B297083980046C956 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		A29F04A2296DEEA300075E18 /* TestMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29F04A5296DEEA300075E18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A29F04A7296DEEA300075E18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A29F04A9296DEEA300075E18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A29F04AC296DEEA300075E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A29F04A9296DEEA300075E18 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		A29F04AE296DEEA300075E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A29F04B1296DEEA300075E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A29F04B3296DEEA300075E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,10 +61,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2861320296DFBC30046C956 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2861321296DFBD40046C956 /* UIKit */,
+				A286133029706D5C0046C956 /* String + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A2861321296DFBD40046C956 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A2861322296DFBFA0046C956 /* UIStackView + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A286132A296E02BC0046C956 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A286132B296E02D40046C956 /* MailCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A286132D296E07410046C956 /* VerificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				A286131E296DF74D0046C956 /* StatusLabel.swift */,
+				A2861324296DFD0E0046C956 /* MailTextField.swift */,
+				A2861326296DFFBE0046C956 /* VerificationButton.swift */,
+				A2861328296E014E0046C956 /* MailCollectionView.swift */,
+			);
+			path = VerificationVC;
+			sourceTree = "<group>";
+		};
+		A2861332297077C60046C956 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				A2861333297078160046C956 /* MailApiKey.swift */,
+				A286133529707A200046C956 /* NetWorkRequest.swift */,
+				A28613392970806C0046C956 /* NetworkDataFetch.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		A29F0499296DEEA200075E18 = {
 			isa = PBXGroup;
 			children = (
 				A29F04A4296DEEA300075E18 /* TestMail */,
+				A2861332297077C60046C956 /* NetWork */,
 				A29F04A3296DEEA300075E18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +127,60 @@
 		A29F04A4296DEEA300075E18 /* TestMail */ = {
 			isa = PBXGroup;
 			children = (
+				A29F04B9296DF02200075E18 /* Application */,
+				A29F04BA296DF03B00075E18 /* Models */,
+				A29F04BD296DF06300075E18 /* Views */,
+				A29F04BB296DF04200075E18 /* Controllers */,
+				A2861320296DFBC30046C956 /* Extensions */,
+				A29F04BE296DF07A00075E18 /* Resources */,
+			);
+			path = TestMail;
+			sourceTree = "<group>";
+		};
+		A29F04B9296DF02200075E18 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				A29F04A5296DEEA300075E18 /* AppDelegate.swift */,
 				A29F04A7296DEEA300075E18 /* SceneDelegate.swift */,
-				A29F04A9296DEEA300075E18 /* ViewController.swift */,
-				A29F04AB296DEEA300075E18 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A29F04BA296DF03B00075E18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A286132E297067110046C956 /* VerificationModel.swift */,
+				A286133729707D820046C956 /* MailResponceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A29F04BB296DF04200075E18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A29F04A9296DEEA300075E18 /* VerificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A29F04BD296DF06300075E18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A286132D296E07410046C956 /* VerificationVC */,
+				A286132A296E02BC0046C956 /* Cells */,
+				A286133B297083980046C956 /* Alerts.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A29F04BE296DF07A00075E18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				A29F04AE296DEEA300075E18 /* Assets.xcassets */,
 				A29F04B0296DEEA300075E18 /* LaunchScreen.storyboard */,
 				A29F04B3296DEEA300075E18 /* Info.plist */,
 			);
-			path = TestMail;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +243,6 @@
 			files = (
 				A29F04B2296DEEA300075E18 /* LaunchScreen.storyboard in Resources */,
 				A29F04AF296DEEA300075E18 /* Assets.xcassets in Resources */,
-				A29F04AD296DEEA300075E18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +253,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A29F04AA296DEEA300075E18 /* ViewController.swift in Sources */,
+				A286132F297067110046C956 /* VerificationModel.swift in Sources */,
+				A286131F296DF74D0046C956 /* StatusLabel.swift in Sources */,
+				A286133C297083980046C956 /* Alerts.swift in Sources */,
+				A286132C296E02D40046C956 /* MailCollectionViewCell.swift in Sources */,
+				A286133629707A200046C956 /* NetWorkRequest.swift in Sources */,
+				A286133A2970806C0046C956 /* NetworkDataFetch.swift in Sources */,
+				A2861327296DFFBE0046C956 /* VerificationButton.swift in Sources */,
+				A29F04AA296DEEA300075E18 /* VerificationViewController.swift in Sources */,
+				A2861334297078160046C956 /* MailApiKey.swift in Sources */,
+				A286133829707D820046C956 /* MailResponceModel.swift in Sources */,
+				A286133129706D5C0046C956 /* String + Extensions.swift in Sources */,
+				A2861325296DFD0E0046C956 /* MailTextField.swift in Sources */,
 				A29F04A6296DEEA300075E18 /* AppDelegate.swift in Sources */,
+				A2861329296E014E0046C956 /* MailCollectionView.swift in Sources */,
+				A2861323296DFBFB0046C956 /* UIStackView + Extensions.swift in Sources */,
 				A29F04A8296DEEA300075E18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +275,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A29F04AB296DEEA300075E18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A29F04AC296DEEA300075E18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A29F04B0296DEEA300075E18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,10 +408,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestMail/Info.plist;
+				INFOPLIST_FILE = TestMail/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,10 +434,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestMail/Info.plist;
+				INFOPLIST_FILE = TestMail/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
